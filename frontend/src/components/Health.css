@@ -1,0 +1,31 @@
+.health-section {
+  margin-bottom: 2rem;
+}
+
+.health-box {
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  border-left: 6px solid #6c757d;
+  background-color: #f1f3f5;
+}
+
+.health-box h4 {
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.health-box p {
+  margin: 0;
+}
+
+.health-box.ok {
+  border-left-color: #198754;
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.health-box.error {
+  border-left-color: #dc3545;
+  background-color: #f8d7da;
+  color: #842029;
+}
