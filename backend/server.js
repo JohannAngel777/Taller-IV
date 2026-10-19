@@ -19,18 +19,18 @@ app.get('/api/info', (req, res) => {
   res.json({
     status: 'ok',
     message: 'El API está funcionando',
-    integrantes: [
+        integrantes: [
       {
-        nombre: 'Nombre Apellido',
-        edad: 20,
-        carrera: 'Tu carrera',
-        materiasAprobadas: 12,
+        nombre: 'Johan Angel',
+        edad: 19,
+        carrera: 'Ingeniería Informática',
+        materiasAprobadas: 6,
       },
       {
-        nombre: 'Nombre Apellido 2',
-        edad: 21,
-        carrera: 'Tu carrera',
-        materiasAprobadas: 15,
+        nombre: 'Andrés Vega',
+        edad: 19,
+        carrera: 'Ingeniería Informática',
+        materiasAprobadas: 7,
       },
     ],
   });
